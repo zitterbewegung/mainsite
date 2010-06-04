@@ -4,11 +4,11 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
    version="2.5"> 
-  <display-name>Compojure on GAE</display-name>
+  <display-name>A Cons Apart</display-name>
   
   <servlet>
     <servlet-name>blog</servlet-name>
-    <servlet-class>compojureongae.core</servlet-class>
+    <servlet-class>mainsite.core</servlet-class>
   </servlet>
 
   <servlet-mapping>
