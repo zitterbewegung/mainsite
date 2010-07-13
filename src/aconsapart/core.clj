@@ -45,7 +45,7 @@
                     (include-css "/css/main.css")]
                    [:body
                     (google-analytics "UA-463487-8")
-                    [:img {:src "/img/logo.png"}]
+                    [:img {:src "/img/logo.gif"}]
                     [:h1 title]
                     [:div#main body]
                     side-bar])))
@@ -66,7 +66,7 @@
 
 (defn create-post [title body]
   "Stores a new post in the datastore and issues an HTTP Redirect to the main page."
-  (ds/create-entity {:kind "post" :title title :body body})
+  (ds/create-entity {:kind "post" :title title :body body })
   (redirect "/"))
 
 (defn render-post [post]

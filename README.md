@@ -1,5 +1,6 @@
 # Compojure on GAE
 Derived from example code from Christian Berg
+I added a few scripts to aid deploying to google app engine.
 This is example code for deploying a Clojure/Compojure web app to
 Google App Engine. I document my experiences while playing around with
 this at

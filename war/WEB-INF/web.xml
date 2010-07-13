@@ -8,7 +8,7 @@
   
   <servlet>
     <servlet-name>blog</servlet-name>
-    <servlet-class>mainsite.core</servlet-class>
+    <servlet-class>aconsapart.core</servlet-class>
   </servlet>
 
   <servlet-mapping>
